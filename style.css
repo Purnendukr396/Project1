@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+#header{
+    height: 45px;
+    background-color: #0000000A;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+a{
+    color:black;
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 300px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+p{
+    color: black;
+    margin-left: 10px;
+    font-size: 15px;
+}
+p:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+#content{
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 40px;
+    align-items: center;
+    height: 49px;
+    background-color:#FAFAFC
+}
+i{
+    font-size: 20px;
+    color: black;
+    
+}
+i:hover{
+    
+    cursor: pointer;
+}
+.apple_icon{
+     padding-left: 315px;
+
+}
+#content1{
+    height: 150px;
+    background-color:#FAFAFC;
+    display: flex;
+    align-items: center;
+    gap:20px;
+    padding-left: 480px;
+    
+   }
+#airpods{
+    height: 150px;
+    width: 650px;
+  background-image: url("apple.jpg.png");
+  background-size: cover;
+  
+}
+#content2{
+    height:49px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    
+}
+#airpods-text{
+    padding-left: 480px;
+    
+}
+#shop-airpods{
+    cursor: pointer;
+    color:blue;   
+
+}
+#shop-airpods:hover{
+    text-decoration: underline;
+}
+body{
+    background-color: #F5F5F5;
+
+}
+#headphone{
+    height:756px;
+    width:1590px;
+    margin:55px;
+    border-radius: 20px;
+    background-image: url("headphone.jpg");
+    background-size: cover;
+   
+    background-position:center;
+    background-repeat:no-repeat;
+    padding-top:600px;
+    padding-left:30px;
+}
+    
+
+#first{
+    font-size:21px;
+    font-weight: bold;
+}
+
+#second{
+    font-size:21px;
+    font-weight: bold;
+}
+#third{
+    font-size:16px;
+    font-weight:200px;
+    color: black;
+}
+#learn-more{
+    height:40px;
+    width:120px;
+    background-color:blue;
+    color:white;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left:1320px;
+    
+}
+#buy{
+    height:40px;
+    width:80px;
+    background-color:rgb(255, 255, 255);
+    color:blue;
+    border:1px solid blue;
+    border-radius: 20px;
+    margin:7px;
+    
+}
+#buy:hover{
+    background-color:blue;
+    color:white;
+    cursor: pointer;
+}
+h1{
+    padding-left: 700px;
+}
+#content4{
+    height: 750px;
+    background-color:white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#image{
+    height:650px;
+    width:350px;
+    background-color:#0000000A;
+    border-radius: 20px;
+    padding: 30px;
+   
+}
+#heart{
+    font-size:17px;
+    font-weight: bold;
+}
+#track{
+    font-size:24px;
+    font-weight: bold;
+}
+#phone{
+    height:75%;
+    width:100%;
+    background-color:antiquewhite;
+    background-image: url("headphone3.jpg");
+    background-size: cover;
+}
+#image1{
+    height:650px;
+    width:350px;
+    background-color:#0000000A;
+    border-radius: 20px;
+    padding: 30px;
+}
+#live{
+    font-size:17px;
+    font-weight: bold;
+}
+#easy{
+    font-size:24px;
+    font-weight: bold;
+}
+#a{
+    height:75%;
+    width:100%;
+    background-color:antiquewhite;
+    background-image: url("headphone5.jpg");
+    background-size: cover;
+}
+#image2{
+    height:650px;
+    width:350px;
+    background-color:#0000000A;
+    padding: 30px;
+    border-radius: 20px;
+}
+#active{
+    font-size:17px;
+    font-weight: bold;
+}
+#control{
+    font-size:24px;
+    font-weight: bold;
+}
+#b{
+    height:75%;
+    width:100%;
+    background-color:antiquewhite;
+    background-image: url("headphone6.jpg");
+    background-size: cover;
+}
+#image3{
+    height:650px;
+    width:350px;
+    background-color:#0000000A;
+    padding: 30px;
+    border-radius: 20px;
+}
+#my{
+    font-size:24px;
+    font-weight: bold;
+    color:red
+    
+}
+
+#c{
+    height:75%;
+    width:100%;
+    background-color:antiquewhite;
+    
+}
+#c video{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+/* =========================
+   TABLET RESPONSIVE
+========================= */
+
+@media (max-width:1024px){
+
+    a{
+        padding-left:50px;
+    }
+
+    .apple_icon{
+        padding-left:50px;
+    }
+
+    #content{
+        gap:20px;
+        flex-wrap:wrap;
+        height:auto;
+        padding:10px;
+    }
+
+    #content1{
+        padding-left:0;
+        justify-content:center;
+    }
+
+    #airpods{
+        width:90%;
+        background-position:center;
+    }
+
+    #airpods-text{
+        padding-left:20px;
+    }
+
+    #headphone{
+        width:90%;
+        height:600px;
+        margin:20px auto;
+        padding-top:450px;
+    }
+
+    #learn-more{
+        margin-left:0;
+    }
+
+    h1{
+        padding-left:0;
+        text-align:center;
+    }
+
+    #content4{
+        flex-wrap:wrap;
+        height:auto;
+        gap:20px;
+        padding:20px;
+    }
+}
+
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width:768px){
+
+    #header{
+        justify-content:center;
+        flex-wrap:wrap;
+        height:auto;
+        padding:10px;
+    }
+
+    a{
+        padding-left:0;
+        font-size:13px;
+    }
+
+    #content{
+        justify-content:center;
+        gap:15px;
+        flex-wrap:wrap;
+        padding:10px;
+        height:auto;
+    }
+
+    .apple_icon{
+        padding-left:0;
+    }
+
+    p{
+        font-size:13px;
+    }
+
+    #content1{
+        height:auto;
+        padding:20px;
+        justify-content:center;
+    }
+
+    #airpods{
+        width:100%;
+        height:120px;
+        background-position:center;
+    }
+
+    #content2{
+        flex-direction:column;
+        height:auto;
+        text-align:center;
+        padding:10px;
+    }
+
+    #airpods-text{
+        padding-left:0;
+    }
+
+    #headphone{
+        width:95%;
+        height:450px;
+        margin:10px auto;
+        padding-top:320px;
+        padding-left:15px;
+    }
+
+    #first,
+    #second{
+        font-size:16px;
+    }
+
+    #third{
+        font-size:14px;
+    }
+
+    #learn-more{
+        margin-left:0;
+        margin-top:10px;
+    }
+
+    h1{
+        font-size:28px;
+        text-align:center;
+        padding-left:0;
+    }
+
+    #content4{
+        flex-direction:column;
+        height:auto;
+        padding:20px;
+        gap:20px;
+    }
+
+    #image,
+    #image1,
+    #image2,
+    #image3{
+        width:100%;
+        height:auto;
+    }
+
+    #phone,
+    #a,
+    #b,
+    #c{
+        height:350px;
+    }
+}
